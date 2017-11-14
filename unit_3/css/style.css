@@ -1,15 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great')
+
 body {
 	text-align: center;
-	background: url("images/Abbey 2.jpg");
-	background-size: cover;
 	color: #043B70;
 	font-size: 30px;
 	font-family: Arial;
 }
+.hero-image {
+	background-image: url("images/Abbey 2.jpg");
+	height: 10%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
 h1 {
 	color: #639CFF;
 	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
 	font-size: 56px; 
+}
+.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: (translate(-50%, -50%);
+	color: white;
 }
 #slogan {
 	color: #043B70;
