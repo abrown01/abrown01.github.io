@@ -1,69 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Questrial');
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	text-align: center;
 	color: #043B70;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Questrial', sans-serif;
 }
-
+section, #one {
+	padding: 5em 0;
+}
 h1 {
 	text-align: right;
 	color: black
 	font-family: 'Playfair Display', serif;
 	font-size: 75px; 
 }
-
 #slogan {
-	color: #043B70;
 	font-style: italic;
 	font-size: 56px;
-	font-family: 'Questrial', sans-serif;
 }
-.important {
+h2 {
 	font-style: italic;
 }
-hr {
-	width: 1450px;
+nav {
+    background-color: #D3D3D3;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #D3D3D3;   
-}
-
-li {
+nav a {
     font-family: 'Questrial', sans-serif;
-    display: inline;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+nav a:hover {
     background-color: white;
+    color: lightgrey;
 }
 
 .hero-image {
-    background-image: url(../images/Abbey 2.jpg)
-
-    height: 2em
-
-    background-position: center;
+    background-image: url(../images/Abbey%202.jpg);
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
-
-.hero-text {
-	text-align: right;
-	color; black;
-	position: absolute;
-	padding: 35px;
-	margin: 5px;
-	font-family: 'Playfair Display', serif; 
+    padding: 10em 0 0;
+    height: 90vh;
 }
 
