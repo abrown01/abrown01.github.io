@@ -53,30 +53,8 @@ nav a:hover {
     height: 90vh;
 }
 
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#left {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-
-.wrapper {
+#wrapper {
 	margin: 0 auto;
-}
-
-#past-works {
-	float: left;
-	padding: 20px;
 }
 
 footer {
@@ -92,5 +70,3 @@ header {
 	border: 1px black solid;
 	padding: 20px; 
 }
-
-
